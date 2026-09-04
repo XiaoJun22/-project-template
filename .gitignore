@@ -1,0 +1,28 @@
+# MDK-ARM (Keil) build artifacts
+MDK-ARM/Listing/
+MDK-ARM/Objects/
+*.uvoptx
+*.uvguix.*
+*.bak
+*.dep
+
+# 保留工程文件本身
+!*.uvprojx
+
+# 编译中间产物
+*.o
+*.obj
+*.axf
+*.map
+*.crf
+*.lnp
+
+# 交付物不进版本库中间路径，走05_output管理
+# (如需版本库追踪固件bin，请在05_output下手动git add，不受此规则影响)
+
+# 系统/编辑器文件
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
